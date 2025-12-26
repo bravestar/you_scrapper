@@ -1,0 +1,7 @@
+{
+  "video_id": "WLxPmoO4HvM",
+  "url": "https://www.youtube.com/watch?v=WLxPmoO4HvM",
+  "status": "error",
+  "error": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=WLxPmoO4HvM (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+  "note": "Network connectivity blocked - scraper cannot reach YouTube"
+}
