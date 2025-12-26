@@ -1,0 +1,25 @@
+# IYE: InnerTube YouTube Extractor - Requirements
+# Complete dependency list for 2025 edition
+
+# === Core Networking & TLS Impersonation ===
+# Replaces headless browsers and residential proxies
+curl-cffi==0.6.2
+
+# === Data Validation & Schema Protection ===
+# Prevents crashes during YouTube UI updates
+pydantic==2.9.0
+
+# === Async HTTP Client ===
+# Fallback and utility requests
+aiohttp==3.9.3
+
+# === General HTTP Utilities ===
+# For non-critical operations
+requests==2.31.0
+
+# === JSON Processing ===
+# High-performance JSON parsing
+orjson==3.9.15
+
+# Note: js2py removed - we use native Python regex extraction
+# and minimal JS execution to avoid security and performance issues
